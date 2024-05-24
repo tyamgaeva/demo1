@@ -1,0 +1,511 @@
+
+* {box-sizing: border-box;
+    margin: 0; padding: 0;}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Roboto Flex';
+}
+
+.medium-text {
+    font-family: 'Roboto Flex';
+    font-weight: 500;
+}
+
+.light-text {
+    font-family: 'Roboto Flex';
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    height: 150px;
+    background-color: #D8FF3A;
+    border-radius: 16px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 32pt;
+    color: black;
+    text-align: center;
+    font-family:'Bakbak One';
+    padding: auto;
+    width: 530px;
+    font-weight: 300;
+}
+
+nav {
+    width: 910px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.menu {
+    width: 629px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;    
+    height: 75px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.menu_element {
+    list-style: none;
+    margin: 13px;
+}
+
+.mini-nav {
+    width: 90px;
+}
+
+.big-nav {
+    width: 130px;
+}
+
+.mini-text {
+    font-size: 20px;
+    color: black;
+}
+
+a.mini-text:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.registration_button {
+    width: 201px;
+    padding-right: 21px;
+    padding-left: 21px;
+    height: 60px;
+    border-radius: 32px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;    
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+
+
+
+.inner-wrapper {
+    margin-top: 68px;
+    margin-left: 117px;
+    margin-bottom: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left_block {
+    display: flex;
+    flex-direction: column;
+    height: 708px;
+}
+
+.green-title {
+    font-size: 60px;
+    font-weight: 300;
+    color: #D8FF3A;
+    font-family: 'Bakbak One';
+}
+
+h2 {
+    height: 207px;
+    margin-bottom: 70px;
+}
+
+.text1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 110px;
+}
+
+.button1 {
+    width: 300px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.new-text {
+    text-decoration: none;
+    color: black;
+    font-family: 'Bakbak One';
+    font-size: 40px;
+    margin: auto;
+}
+
+
+
+
+.green-blocks {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 49px;
+}
+
+.green-block {
+    background-color: #D8FF3A;
+    width: 304px;
+    height: 243px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img {
+    height: 70px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.block-title {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.block-text {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    margin: auto;
+}
+
+.marg1 {
+    margin-right: 140px;
+}
+
+.marg2 {
+    margin-right: 117px;
+}
+
+
+
+
+.news-block {
+    width: 1195px;
+    height: 302px;
+    background-color: #D9D9D9;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 183px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-img {
+    margin-left: -150px;
+    margin-top: -175px;
+    width: 951px;
+    height: 713px;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: -255px;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 1000;
+}
+
+.news-title {
+    color: black;
+    margin-bottom: 18px;
+    font-size: 30px;
+    margin-right: auto;
+}
+
+.news-text {
+    margin-bottom: 17px;
+    color: black;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.button2 {
+    width: 235px;
+    height: 60px;
+    background-color: #D8FF3A;
+    border-radius: 32px;
+    border: 0;
+    margin-right: auto;
+}
+
+
+
+
+h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+    margin-bottom: 94px;
+}
+
+.slider {
+    margin: auto;
+    max-width: 1440px;
+    height: 488px;
+    margin-top: -47px;
+    position: relative;
+}
+
+.slide {
+    max-width: 1101px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    transition: 0.6s ease;
+    opacity: 0.6;
+    margin-top: -340px;
+    position: absolute;
+    background-color: #D8FF3A;
+    margin-left: 70px;
+}
+
+.next {
+    right: 0;
+    margin-right: 70px;
+    margin-left: 0;
+}
+
+.prev:hover, .next:hover {
+    opacity: 1;
+} 
+
+.comment {
+    width: 304px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-for-img {
+    width: 304px;
+    height: 243px;
+    border-radius: 16px;
+    border: 0;
+    background-color: #D8FF3A;
+    margin-top: 47px;
+}
+
+.img-block {
+    margin-top: -47px;
+}
+
+.photo-text {
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 28px;
+    height: 170px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+
+
+footer {
+    width: 1195px;
+    height: 640px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-info {
+    margin: 57px 80px 0 53px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 57px;
+    width: 435px;
+}
+
+.span {
+    font-family: 'Bakbak One';
+    font-size: 70px;
+    margin-right: auto;
+    margin-bottom: 65px;
+    margin-top: -10px;
+}
+
+.mailto {
+    color: black;
+    margin: 54px 0 30px 0;
+    font-size: 30px;
+}
+
+tel {
+    color: black;
+    font-size: 30px;
+}
+
+address {
+    font-style: normal;
+    color: black;
+    margin-top: 33px;
+    font-size: 30px;
+}
+
+.right-info {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.words {
+    color: black;
+    list-style: none;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.words-style, .words-style:after {
+    color: black;
+}
+
+.icons {
+    list-style: none;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    margin-top: 91px;
+    margin-bottom: 100px;
+    width: 570px;
+    height: 205px;
+    background-color: #D8FF3A;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.frame {
+    border: solid 3px black;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    width: 282px;
+    height: 89px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 27px;
+}
+
+.email {
+    margin-left: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.for-m, .for-m:focus {
+    background-color: #D8FF3A;
+    border: none;
+    border-radius: 16px;
+    color: black;
+    height: 80px;
+    width: 163px;
+    font-size: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.send {
+    height: 89px;
+    width: 223px;
+    margin-left: 11px;
+    border: solid 3px black;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+hr {
+    height: 10px;
+    width: 1147px;
+    background-color: #D8FF3A;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border: 0;
+}
+
+.bottom-text {
+    margin-left: 53px;
+}
